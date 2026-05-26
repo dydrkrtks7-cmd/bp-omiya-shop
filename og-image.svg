@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 배경 -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Geometric pattern -->
+  <circle cx="296" cy="316" r="79" fill="#b91c1c" opacity="0.05"/>
+    <circle cx="769" cy="-57" r="20" fill="#b91c1c" opacity="0.18"/>
+    <circle cx="716" cy="445" r="81" fill="#b91c1c" opacity="0.18"/>
+    <circle cx="113" cy="371" r="67" fill="#b91c1c" opacity="0.20"/>
+    <circle cx="132" cy="659" r="63" fill="#b91c1c" opacity="0.18"/>
+    <circle cx="445" cy="264" r="34" fill="#b91c1c" opacity="0.08"/>
+    <rect x="1114" y="337" width="84" height="62" rx="8" fill="#dc2626" opacity="0.11" transform="rotate(42, -68, 253)"/>
+    <rect x="1001" y="629" width="46" height="46" rx="8" fill="#dc2626" opacity="0.10" transform="rotate(22, 752, 519)"/>
+    <rect x="41" y="523" width="52" height="89" rx="8" fill="#dc2626" opacity="0.08" transform="rotate(26, 1012, 617)"/>
+    <rect x="665" y="126" width="93" height="63" rx="8" fill="#dc2626" opacity="0.06" transform="rotate(30, 1190, 263)"/>
+    <rect x="520" y="285" width="20" height="23" rx="8" fill="#dc2626" opacity="0.06" transform="rotate(26, 345, 347)"/>
+    <rect x="926" y="313" width="51" height="20" rx="8" fill="#dc2626" opacity="0.15" transform="rotate(20, 1222, 440)"/>
+    <rect x="517" y="374" width="96" height="57" rx="8" fill="#dc2626" opacity="0.14" transform="rotate(21, 198, 338)"/>
+    <rect x="635" y="-58" width="80" height="25" rx="8" fill="#dc2626" opacity="0.12" transform="rotate(23, 270, 167)"/>
+    <polygon points="289,186 377,362 201,362" fill="#b91c1c" opacity="0.08"/>
+    <polygon points="556,99 649,285 463,285" fill="#b91c1c" opacity="0.07"/>
+    <polygon points="51,535 98,629 4,629" fill="#b91c1c" opacity="0.04"/>
+    <polygon points="990,631 1076,803 904,803" fill="#b91c1c" opacity="0.11"/>
+
+  <!-- Wave at bottom -->
+  <path d="M0,568 C360,599 840,537 1200,568 L1200,630 L0,630Z" fill="#b91c1c" opacity="0.3"/>
+
+  <!-- 중앙 텍스트 카드 -->
+  <rect x="80" y="195" width="1040" height="260" rx="20" fill="rgba(0,0,0,0.35)" filter="url(#blur-bg)"/>
+  <filter id="blur-bg"><feGaussianBlur stdDeviation="8"/></filter>
+
+  <text x="600" y="270" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="44" font-weight="700" fill="#ffffff" letter-spacing="2">
+    Omiya shop 안내
+  </text>
+  <text x="600" y="330" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="22" font-weight="400" fill="rgba(255,255,255,0.85)">
+    Omiya — 정보
+  </text>
+
+  <!-- Accent line -->
+  <line x1="450" y1="355" x2="750" y2="355" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- 하단 CTA -->
+  <rect x="440" y="385" width="320" height="40" rx="20" fill="#fbbf24" opacity="0.9"/>
+  <text x="600" y="411" text-anchor="middle" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="16" font-weight="600" fill="#ffffff">
+    ▼ 자세히 보기
+  </text>
+
+  <!-- 상단 브랜드 -->
+  <text x="60" y="55" font-family="'Noto Sans JP','Noto Sans KR','Pretendard',sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.6)">
+    Omiya Omiya shop 안내 — 정보
+  </text>
+</svg>
