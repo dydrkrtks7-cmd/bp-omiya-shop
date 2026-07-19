@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-omiya-shop/</loc>
+    <loc>https://omiya-shop-guide.pbn-builder.xyz/</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-omiya-shop/posts/compare-002-15b0xvm.html</loc>
+    <loc>https://omiya-shop-guide.pbn-builder.xyz/posts/compare-002-15b0xvm.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-omiya-shop/posts/compare-002-fojfvg.html</loc>
+    <loc>https://omiya-shop-guide.pbn-builder.xyz/posts/compare-002-fojfvg.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-omiya-shop/posts/qa-001-15b0xvm.html</loc>
+    <loc>https://omiya-shop-guide.pbn-builder.xyz/posts/qa-001-15b0xvm.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-omiya-shop/posts/qa-001-fojfvg.html</loc>
+    <loc>https://omiya-shop-guide.pbn-builder.xyz/posts/qa-001-fojfvg.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-omiya-shop/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
   </url>
 </urlset>
