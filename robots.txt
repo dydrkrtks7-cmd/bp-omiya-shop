@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sinchon-massage-note.aga-uhake.space/sitemap.xml
-Sitemap: https://sinchon-massage-note.aga-uhake.space/sitemap-pages.xml
+Sitemap: https://omiya-shop-guide.pbn-builder.xyz/sitemap.xml
+Sitemap: https://omiya-shop-guide.pbn-builder.xyz/sitemap-pages.xml
