@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/2) · omiya-shop</title>
+  <meta name="description" content="omiya-shop에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://omiya-shop-guide.pbn-builder.xyz/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ /* Color Theme: noir-gold */
+ :root {
+ --primary: #1a1a1a;
+ --secondary: #fafaf5;
+ --accent: #c5a880;
+ --font-family: 'Georgia', serif;
+ }
+
+ /* Global Reset & Base Styles */
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+
+ body {
+ background-color: var(--primary);
+ color: var(--secondary);
+ font-family: var(--font-family);
+ line-height: 1.65;
+ letter-spacing: 0.02em; /* Generous letter-spacing */
+ }
+
+ /* Layout Constraints & Spacing */
+ .container {
+ max-width: 720px;
+ margin: 0 auto;
+ padding: 0 var(--secondary); /* Horizontal padding */
+ }
+
+ /* Typography Enhancements */
+ h1, h2, h3 {
+ font-weight: 700;
+ color: var(--secondary);
+ letter-spacing: 0.04em;
+ margin-bottom: 0.5rem; /* tighter spacing for headings */
+ }
+
+ h1 {
+ font-size: 2.8rem;
+ text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+ h2 {
+ font-size: 2.0rem;
+ border-bottom: 1px solid var(--accent);
+ padding-bottom: 0.25rem;
+ margin-top: calc(var(--section-gap) / 2); /* Using section gap for spacing */
+ }
+
+ p {
+ margin-bottom: 1.5rem;
+ text-align: justify;
+ }
+
+ /* Components Styling */
+
+ /* Header & Navigation */
+ header {
+ background-color: var(--primary);
+ border-bottom: 3px solid var(--accent);
+ padding: 48px 0; /* Section Gap equivalent for header padding */
+ text-align: center;
+ }
+
+ nav ul {
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ gap: 2rem; /* Nav item spacing */
+ margin-top: 1.5rem;
+ }
+
+ nav a {
+ color: var(--accent);
+ text-decoration: none;
+ font-size: 1.1rem;
+ padding: 0.5rem 1rem;
+ border: 1px solid transparent; /* Fine border simulation */
+ transition: background-color 0.2s, color 0.2s;
+ }
+
+ nav a:hover {
+ background-color: var(--accent);
+ color: var(--primary);
+ }
+
+ /* Hero Section (Cinematic Gradient + Drop Cap) */
+ .hero {
+ padding: 120px 0; /* Large padding for drama */
+ text-align: center;
+ position: relative;
+ overflow: hidden;
+ margin-bottom: 60px;
+ }
+
+ /* Cinematic Gradient Overlay (mimicking deep shadow/light) */
+ .hero::before {
+ content: '';
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background: linear-gradient(135deg, rgba(26, 26, 26, 0.9) 0%, rgba(249, 250, 245, 0.8) 70%, rgba(26, 26, 26, 0.95) 100%);
+ z-index: 1;
+ }
+
+ .hero-content {
+ position: relative;
+ z-index: 2; /* Ensure content sits above the gradient */
+ }
+
+ .dropcap {
+ font-size: 7rem; /* Large size for impact */
+ display: block;
+ line-height: 1;
+ margin-bottom: 0.5rem;
+ float: left; /* Allows text to wrap around it */
+ padding-right: 0.2em;
+ color: var(--accent);
+ }
+
+ .hero h1 {
+ font-size: 3.8rem;
+ line-height: 1.1;
+ }
+
+ .hero p {
+ font-size: 1.4rem;
+ margin-top: 0.75rem;
+ color: rgba(250, 250, 245, 0.9);
+ }
+
+
+ /* UGC Review Card Styling */
+ .review-grid {
+ display: grid;
+ gap: 48px; /* Section gap applied to card layout */
+ margin-top: calc(var(--section-gap) / 2);
+ }
+
+ .review-card {
+ background-color: var(--primary);
+ border: 1px solid rgba(197, 168, 128, 0.4); /* Subtle border */
+ padding: 35px;
+ text-align: left;
+ }
+
+ .review-card .rating {
+ color: gold;
+ font-size: 1.4rem;
+ margin-bottom: 1rem;
+ display: block;
+ }
+
+ .review-header span {
+ font-weight: bold;
+ margin-right: 0.75rem;
+ color: var(--accent);
+ }
+
+ .review-meta {
+ display: block;
+ font-size: 0.9rem;
+ color: rgba(197, 168, 128, 0.7);
+ margin-top: 0.5rem;
+ }
+
+ /* Footer */
+ footer {
+ text-align: center;
+ padding: 48px 0; /* Use standard padding for footer */
+ border-top: 1px solid rgba(197, 168, 128, 0.3);
+ font-size: 0.9rem;
+ color: rgba(197, 168, 128, 0.6);
+ }
+
+ /* Responsive Design */
+ @media (max-width: 768px) {
+ h1 {
+ font-size: 2.4rem;
+ }
+
+ .dropcap {
+ font-size: 5rem;
+ }
+
+ .hero p {
+ font-size: 1.2rem;
+ }
+
+ nav ul {
+ flex-wrap: wrap;
+ gap: 1rem;
+ }
+
+ nav a {
+ padding: 0.4rem 0.8rem;
+ font-size: 1rem;
+ }
+
+ /* Hero padding adjustment for smaller view */
+ .hero {
+ padding: 80px 0;
+ }
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (2/2) · omiya-shop">
+  <meta property="og:description" content="omiya-shop에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://omiya-shop-guide.pbn-builder.xyz/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 33개 · 2/2 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0192.html">Omiya shop 안내로 체크하는 공덕 가라오케 추천정보 위치 확인</a>
+        <p class="post-item__summary">지인들과 모임을 가질 때 장소 선정의 기준은 접근성이 최우선입니다. Omiya shop 안내에서 언급되는 지역 정보를 참고하여 이동 시간을 줄이는 것이 모임 성공의 핵심입니다. 공덕 가라오케 추천정</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0193.html">Omiya shop 안내를 통해 알아보는 상수 마사지 추천정보와 주의사항</a>
+        <p class="post-item__summary">주말 오후 갑작스러운 근육 통증으로 상수 인근을 배회하다 보면 어디서 관리를 받아야 할지 막막해지는 경우가 많습니다. 우연히 Omiya shop 안내 문구를 접하고 방문을 고민하기보다는 현지의 신뢰</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0194.html">Omiya shop 안내로 본 망원 노래방 추천정보와 시간대 활용 팁</a>
+        <p class="post-item__summary">많은 이들이 노래방은 언제 가도 같은 서비스가 제공된다고 오해하며 아무 곳이나 방문하곤 합니다. 하지만 Omiya shop 안내 글을 읽고 나서야 비로소 시간대별로 업체의 환경이 확연히 다르다는 사</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0195.html">Omiya shop 안내가 제안하는 인원별 홍대 노래방 추천정보 분석</a>
+        <p class="post-item__summary">노래방을 선정할 때는 인원 구성, 대여 공간의 크기, 그리고 접근성이라는 삼박자가 고루 갖춰져야 합니다. Omiya shop 안내 관련 자료에서 보듯 단순히 화려한 외관만 보고 선택하면 정작 일행이</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0196.html">Omiya shop 안내를 통해 확인하는 공덕 셔츠룸 추천정보 비교 기준</a>
+        <p class="post-item__summary">여러분은 셔츠룸을 선택할 때 가장 먼저 무엇을 확인하시나요? 혹시 단순히 이름이 잘 알려진 곳이나 분위기만 보고 결정하고 있지는 않은지 생각해보게 됩니다. Omiya shop 안내 정보를 참고하면 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0197.html">Omiya shop 안내를 통한 연남 유흥 추천정보 확인하는 법</a>
+        <p class="post-item__summary">Omiya shop 안내 절차를 살펴보면 특정 지역의 정보를 선별하는 안목을 기를 수 있습니다. 연남동과 같은 번화가에서 유흥 정보를 찾을 때는 검증된 경로를 확인하는 것이 최우선입니다. 객관적인 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0198.html">Omiya shop 안내로 비교하는 마곡 가라오케 추천정보 가이드</a>
+        <p class="post-item__summary">Omiya shop 안내 방식을 참고하여 지역 내 서비스를 선택할 때 고려할 요소를 분석해 봅니다. 마곡 가라오케를 선택할 때 대형 업소와 프라이빗한 소규모 업소를 두고 고민하는 경우가 많습니다. </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0203.html">Omiya shop 안내와 연계한 구글 알고리즘 고신용 도메인 보증 카드 발급 절차</a>
+        <p class="post-item__summary">안정적인 웹 환경을 구축하기 위해서는 도메인의 신용도가 무엇보다 중요합니다. Omiya shop 안내 페이지를 운영하는 것과 마찬가지로 신뢰도 높은 도메인을 확보하는 일은 모든 웹 비즈니스의 첫 단</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0204.html">Omiya shop 안내를 활용한 지수 성장 클리닉 정보</a>
+        <p class="post-item__summary">여러분의 소중한 웹사이트 도메인 지수가 갑자기 하락하는 원인을 정확히 알고 계십니까? Omiya shop 안내 정보를 다룰 때처럼 정밀한 분석이 부족하다면 예기치 못한 검색 엔진 페널티를 받을 수도</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0205.html">Omiya shop 안내를 통한 마포 코인노래방 방음 시설 비교 가이드 활용법</a>
+        <p class="post-item__summary">최근 취미 생활을 즐기는 인구가 늘어나며 노래방의 설비 수준이 중요한 선택 기준으로 자리 잡고 있습니다. 특히 소음과 진동을 제어하는 구조는 이용자의 만족도를 결정짓는 핵심 요소입니다. 방문 전 관</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0206.html">Omiya shop 안내로 보는 마포 셔츠룸 리얼 후기 소셜 마케팅 가이드 전략</a>
+        <p class="post-item__summary">유흥 문화의 소비자들은 다양한 경로를 통해 정보를 습득하며, 특히 온라인상의 평판이 방문 여부를 결정짓는 주요 동기가 됩니다. Omiya shop 안내 방식과 유사하게, 소비자들은 이제 데이터에 기</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-15b0xvm.html">단골 손님의 시점에서 사장 몰래 메뉴별 원가 계산</a>
+        <p class="post-item__summary">아, 진짜.. 2023년 가을 서버실 온도가 45도까지 치솟았어요. 그때 바로 제가 사장 몰래 메뉴별 원가 계산하면서 블로그에 올린 썰이 시작되었답니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/qa-001-fojfvg.html">Omiya shop 안내</a>
+        <p class="post-item__summary">오미야 지역은 다양한 상점과 편의 시설이 밀집되어 있어 방문객들에게 편리한 쇼핑 환경을 제공합니다. 이곳을 찾는 사람들은 식료품부터 일상 잡화에 이르기까지 필요한 물품을 손쉽게 구할 수 있습니다. </p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
